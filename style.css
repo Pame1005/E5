@@ -363,6 +363,9 @@ footer p {
         display: flex;
         flex-wrap: nowrap;
     }
+    .menu-nav:checked + .lista {
+        display: flex;
+    }
    .lista {
        display: flex;
        justify-content: space-evenly;
